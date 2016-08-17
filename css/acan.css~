@@ -1,0 +1,81 @@
+/* Extra classes for ACAN site */
+.navbar-collapse{
+	 text-align:right;
+	 margin-left:100px !important;
+	 max-height:380px !important;
+}
+
+.maps iframe{
+    pointer-events: none;
+}
+.left-list-group{
+	text-align:left;
+	margin:5px 2px;
+}
+.text-vertical-center{
+	display:table-cell;
+	text-align:center;
+	vertical-align:middle;
+}
+.callout{
+	display: table;
+    width: 100%;
+    height: 400px;
+    color: #fff;
+    background: url("../img/PCLAMP.jpg") no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.mbrs{
+	display: table;
+    width: 100%;
+    height: 400px;
+    color: #fff;
+    background: url("../img/mbrs_building.png") no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.btn-circle {
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    padding: 7px 16px;
+    border: 2px solid #fff;
+    border-radius: 100%!important;
+    font-size: 40px;
+    color: #fff;
+    background: 0 0;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+.btn-circle:focus, .btn-circle:hover {
+    outline: 0;
+    color: #fff;
+    background: rgba(255,255,255,.1);
+}
+.panel-profile .panel-heading {
+    height: 100px;
+    background-size: cover;
+}
+.panel-profile-img{
+	    max-width: 150px;
+    margin-top: -70px;
+    margin-bottom: 5px;
+    border: 3px solid #fff;
+    border-radius: 100%;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+footer p{
+	text-align:center;
+	font-size:10px;
+	color:#666;
+}
+/*margin: 0px; padding: 0px 0px 15px; color: rgb(102, 102, 102); font-family: 'Open Sans', Arial, Helvetica, sans-serif; line-height: 20px;*/
