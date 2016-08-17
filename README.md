@@ -4,6 +4,7 @@
 Redeveloped with new theme from:
 [Start Bootstrap](http://startbootstrap.com/) - [Creative](http://startbootstrap.com/template-overviews/creative/)
 
+Note: Images and docs are not in github
 
 ## Launch
 Launch date: 17th August 2016
