@@ -162,8 +162,8 @@ header {
   background-image: url('../img/DorsalHorn_bannerBlur.png');
   text-align: center;
   color: white;
-  /*Parallax*/
-  min-height:500px;
+  /*Parallax
+  min-height:500px;*/
   background-attachment:fixed;
   background-repeat:no-repeat;
 }
