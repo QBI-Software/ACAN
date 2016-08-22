@@ -46,3 +46,8 @@ Network Trash Folder
 Temporary Items
 .apdisk
 img/*
+*.css~
+css/acan.css~
+*.json~
+index.html~
+*.css~
