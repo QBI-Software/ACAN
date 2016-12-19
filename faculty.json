@@ -295,7 +295,7 @@
 			"org": "Korean Institute of Science and Technology ",
 			"category": "",
 			"imgsrc": "Baker.png",
-			"desc": "",
+			"desc": "My lab develops genetically encoded fluorescent voltage sensors. By fusing a fluorescent protein to a voltage-sensing protein, changes in membrane potential can be observed optically. Since voltage is the currency of the nervous system, we want to develop probes capable of optically reporting specific types of neuronal activity, e.g., inhibition. This requires a better understanding of the conformational response of the sensor in response to changes in membrane potential. As a result, we also study the voltage-sensing domain and fluorescent proteins in order to make voltage probes capable of mapping neuronal activity in vivo.",
 			"url": "http://www.kist.re.kr/VoltageBaker/Home.html"
 		}, {
 			"firstname": "John",
