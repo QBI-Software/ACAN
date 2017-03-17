@@ -324,6 +324,16 @@
 			"imgsrc": "Dolzer.png",
 			"desc": "Product Manager, Patch Clamp Systems at Sutter Instruments, USA.",
 			"url": "https://www.linkedin.com/in/jan-dolzer-00a3356"
+		},
+		{
+			"firstname": "Thomas",
+			"lastname": "Meyer",
+			"title": "",
+			"org": "Multi Channel Systems, Germany",
+			"category": "",
+			"imgsrc": "Meyer.png",
+			"desc": "Senior Application Scientist",
+			"url": "http://www.multichannelsystems.com/team/dr-thomas-meyer"
 		}
 	]
 }
