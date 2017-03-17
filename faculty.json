@@ -286,7 +286,7 @@
 			"org": "Korean Institute of Science and Technology",
 			"category": "",
 			"imgsrc": "Kim.png",
-			"desc": "Mapping mammalian synaptic connectivity has long been an important goal of neuroscience because knowing how neurons and brain areas are connected underpins an understanding of brain function.  Meeting this goal requires advanced techniques with single synapse resolution and large-scale capacity, especially at multiple scales tethering the meso- and micro-scale connectome. Many types of questions in neuroscience require detecting and mapping synapses in the complex mammalian brain. The increasing pace of technology developments for neuroanatomy called connectome make us feel that it is indeed exciting time to be a neuroscientist witnessing our steps towards keys to unlock the mystery of the brain",
+			"desc": "Mapping mammalian synaptic connectivity has long been an important goal of neuroscience because knowing how neurons and brain areas are connected underpins an understanding of brain function. Meeting this goal requires advanced techniques with single synapse resolution and large-scale capacity, especially at multiple scales tethering the meso- and micro-scale connectome. Many types of questions in neuroscience require detecting and mapping synapses in the complex mammalian brain. The increasing pace of technology developments for neuroanatomy called connectome make us feel that it is indeed exciting time to be a neuroscientist witnessing our steps towards keys to unlock the mystery of the brain",
 			"url": "http://jinny.kist.re.kr/Jinny_lab/Welcome.html"
 		}, {
 			"firstname": "Brad",
@@ -306,6 +306,24 @@
 			"imgsrc": "Lin.png",
 			"desc": "Dr. Lin's research aligns with the University's research them of Better Health. His research focused on providing novel tools for other neuroscientists and cellular biologists to better understand how cellular events in individual cells or groups of cells lead to the behaviour observed in laboratory animal models.",
 			"url": "http://www.utas.edu.au/profiles/staff/medicine/john-lin"
+		}, {
+			"firstname": "Sebastien",
+			"lastname": "Royer",
+			"title": "Dr",
+			"org": "KIST, Republic of Korea",
+			"category": "",
+			"imgsrc": "Royer.png",
+			"desc": "Dr. Royer's research focuses on the network dynamics supporting the encoding, retrieval and consolidation of episodic memory. His main approach is to monitor and manipulate (using optogenetic techniques) the neural activity in the hippocampus and connected areas while mice are performing specific behavioral tasks. To this end, he uses the following technologies: Silicon probes for recording LFP and neural spikes; Optrodes to combine recordings and optogenetic stimulations; Treadmills, in which mice perform well controlled foraging behaviors in 1-D landscapes.",
+			"url": "http://sebroyer.kist.re.kr/Home.html"
+		}, {
+			"firstname": "Jan",
+			"lastname": "Dolzer",
+			"title": "",
+			"org": "Sutter Instruments, USA",
+			"category": "",
+			"imgsrc": "Dolzer.png",
+			"desc": "Product Manager, Patch Clamp Systems at Sutter Instruments, USA.",
+			"url": "https://www.linkedin.com/in/jan-dolzer-00a3356"
 		}
 	]
 }
