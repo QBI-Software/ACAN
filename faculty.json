@@ -171,16 +171,7 @@
 			"imgsrc": "Petrou.png",
 			"desc": "Professor Petrou is a Deputy Director, Head of the Florey's Division of Epilepsy, and heads the Laboratory of Ion Channels and Human Disease, a multidisciplinary team of researchers with a focus on revealing fundamental mechanisms of disease genesis in the central nervous system. Current major areas of investigation centre on the development and characterisation of genetically engineered mice models for the study of human familial epilepsy. He works closely with industry and has several patents for his discoveries. In addition to his many roles within the Florey Institutes and the University of Melbourne, he serves on the editorial board of the Journal Neurobiology of Disease and the Investigators Workshop Committee for the American Epilepsy Society.",
 			"url": "http://findanexpert.unimelb.edu.au/display/person2578"
-		}, {
-			"firstname": "John",
-			"lastname": "Power",
-			"title": "",
-			"org": "University of Sydney",
-			"category": "",
-			"imgsrc": "Power.png",
-			"desc": "Our memories and the emotions they evoke not only allow us to adapt to our environment, but also help define our sense of self. Memory formation involves a rewiring of the brain, making or strengthening connections between some neurons and breaking or weakening connections between others. Our group investigates the cellular mechanisms of memory formation using a combination of electrophysiological recordings, live-cell fluorescent calcium imaging and genetic manipulations.  We aim to identify of novel mechanisms that modulate or preserve neuronal connections that may be translated into treatments for the above disorders as well as stroke and epilepsy.",
-			"url": "https://medicalsciences.med.unsw.edu.au/research/groups/translational-neuroscience-facility/memory-and-plasticity-group"
-		}, {
+		},  {
 			"firstname": "Chris",
 			"lastname": "Reid",
 			"title": "",
@@ -319,10 +310,10 @@
 			"firstname": "Jan",
 			"lastname": "Dolzer",
 			"title": "",
-			"org": "Sutter Instruments, USA",
+			"org": "Sutter Instrument, USA",
 			"category": "",
 			"imgsrc": "Dolzer.png",
-			"desc": "Product Manager, Patch Clamp Systems at Sutter Instruments, USA.",
+			"desc": "Product Manager, Patch Clamp Systems at Sutter Instrument, USA.",
 			"url": "https://www.linkedin.com/in/jan-dolzer-00a3356"
 		},
 		{
@@ -334,6 +325,27 @@
 			"imgsrc": "Meyer.png",
 			"desc": "Senior Application Scientist",
 			"url": "http://www.multichannelsystems.com/team/dr-thomas-meyer"
+		},
+		{
+			"firstname": "Elena",
+			"lastname": "Bagley",
+			"title": "Assoc Professor",
+			"org": "University of Sydney",
+			"category": "",
+			"imgsrc": "Bagley.png",
+			"desc": "The laboratory primarily focuses on synapses, which are the point of communication between brain cells. We are interested in normal synaptic function and synapse dysfuntion. Synaptic dysfunction is emerging as a key player in many brain disorders. We use patch-clamp electrophysiology in brain slices, immunohistochemistry and biochemical assays to study synaptic properties and synaptic plasticity that may participate in physiological or pathophysiological processes. Of particular interest are the synaptic changes or plasticity that may be responsible for chronic pain states, neurodevelopmental problems and drug addiction. We also use behavioural assays to try to understand the role of these synaptic changes in the whole animal.",
+			"url": "http://sydney.edu.au/medicine/people/academics/profiles/elena.bagley.php"
+		},
+		{
+			"firstname": "John",
+			"lastname": "Power",
+			"title": "Dr",
+			"org": "UNSW",
+			"category": "",
+			"imgsrc": "Power.png",
+			"desc": "Dr. Power is an expert in the cellular basis of memory formation.  His previous research has contributed to our understanding of the biophysical changes that underlie aging and associative learning, the role of the endoplasmic reticulum in neuronal calcium signalling, and amygdala neurophysiology.   His group continues to investigate the cellular mechanisms of memory formation using a combination of electrophysiological recordings, live-cell fluorescent calcium imaging and genetic manipulations.  The current focus of his research is the identification of novel cellular mechanisms that modulate or preserve neuronal connections that may be translated into treatments for disorders of impaired or aberrant connectivity such as Alzheimer's disease, stroke, post-traumatic stress disorder, epilepsy and addiction.",
+			"url": "https://medicalsciences.med.unsw.edu.au/people/dr-john-power"
 		}
+		
 	]
 }
