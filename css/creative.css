@@ -146,26 +146,32 @@ aside {
   .navbar-default.affix .nav > li > a:focus:hover {
     color: #F05F40;
   }
-  
+
 }
 
 header {
   position: relative;
   width: 100%;
-  min-height: auto;
+  /*min-height: auto;*/
+  background-image: url('../img/banner.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  /*background-image: url('../img/header.jpg');*/
-  background-image: url('../img/DorsalHorn_bannerBlur.png');
   text-align: center;
   color: white;
   /*Parallax
   min-height:500px;*/
   background-attachment:fixed;
   background-repeat:no-repeat;
+
+}
+@media (max-width: 767px) {
+  header{
+    background-attachment: initial;
+  }
+
 }
 header .header-content {
   position: relative;
