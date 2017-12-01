@@ -428,3 +428,8 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #222222;
 }
+/*Added LCW */
+ul.centredlist{
+  list-style-type: none;
+  padding-left: 0;
+}

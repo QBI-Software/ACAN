@@ -64,7 +64,7 @@
     background: rgba(255,255,255,.1);
 }
 .panel-profile .panel-heading {
-    height: 100px;
+    height: 130px;
     background-size: cover;
 }
 .panel-profile-img{
@@ -91,4 +91,5 @@ footer p{
 		margin-top:12px;
 	}
 }
+
 /*margin: 0px; padding: 0px 0px 15px; color: rgb(102, 102, 102); font-family: 'Open Sans', Arial, Helvetica, sans-serif; line-height: 20px;*/
