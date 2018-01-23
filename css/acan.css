@@ -1,4 +1,21 @@
 /* Extra classes for ACAN site */
+body{
+	font-family:Arial,sans-serif;
+}
+h3{
+	font-size: 1.5rem;
+	margin:0.7rem;
+}
+header.masthead{
+	background-image: url("../img/banner.png");
+}
+
+@media screen and (max-width: 480px){
+	#homeHeading{
+		margin-top:12px;
+	}
+}
+
 .navbar-collapse{
 	 text-align:right;
 	 margin-left:100px !important;
@@ -8,6 +25,12 @@
 .maps iframe{
     pointer-events: none;
 }
+
+ul.centredlist{
+	list-style-type: none;
+    padding-left: 0;
+}
+
 .left-list-group{
 	text-align:left;
 	margin:5px 2px;
@@ -66,10 +89,14 @@
 .panel-profile .panel-heading {
     height: 130px;
     background-size: cover;
+
+}
+.panel-profile{
+	margin-left:auto;
 }
 .panel-profile-img{
 	    max-width: 150px;
-    margin-top: -70px;
+    margin-left: 5em;
     margin-bottom: 5px;
     border: 3px solid #fff;
     border-radius: 100%;
@@ -86,10 +113,15 @@ footer p{
 .programpanel{
 	height:580px;
 }
+
+.portfolio-box img{
+	/*margin:15px 5px;*/
+	min-width:150px;
+	min-height:30px;
+}
+
 @media screen and (max-width: 480px){
 	#homeHeading{
 		margin-top:12px;
 	}
-}
-
 /*margin: 0px; padding: 0px 0px 15px; color: rgb(102, 102, 102); font-family: 'Open Sans', Arial, Helvetica, sans-serif; line-height: 20px;*/

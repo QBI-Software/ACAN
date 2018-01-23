@@ -24,7 +24,7 @@
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
     <!-- Theme CSS -->
-    <link href="css/creative.css" rel="stylesheet">
+    <link href="css/creative.min.css" rel="stylesheet">
 	<link href="css/acan.css" rel="stylesheet">
 
     <!-- Attribution of derivative work: Basic theme: Start Bootstrap Free Creative (https://startbootstrap.com/template-overviews/creative/)
@@ -40,45 +40,42 @@
 
 <body id="page-top">
 
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" title="Home" href="#page-top"><img alt="ACAN logo" width="100px" src="img/logos/acan-logo1.png" /></a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" title="Home" href="#page-top"><img alt="ACAN logo" width="100px" src="img/logos/acan-logo1.png" /></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
                     </li>
-					<li>
-                        <a class="page-scroll" href="#program">Program</a>
+					<li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#program">Program</a>
                     </li>
-					<li>
-                        <a class="page-scroll" href="#application">Application</a>
+					<li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#application">Application</a>
                     </li>
-					<li>
-                        <a class="page-scroll" href="#scholarships">Scholarships</a>
+					<li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#scholarships">Scholarships</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#faculty">Faculty</a>
+                    <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#faculty">Faculty</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Gallery</a>
+                    <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Gallery</a>
                     </li>
-					<li>
-                        <a class="page-scroll" href="#sponsors">Sponsors</a>
+					<li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#sponsors">Sponsors</a>
                     </li>
-					<li>
-                        <a class="page-scroll" href="#location">Location</a>
+					<li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#location">Location</a>
                     </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                    <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -87,24 +84,25 @@
         <!-- /.container-fluid -->
     </nav>
 
-    <header>
-        <div class="header-content">
-            <div class="header-content-inner">
-
+    <header class="masthead text-center text-white d-flex">
+        <div class="container my-auto">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
                 <h1 id="homeHeading">Welcome to ACAN 2018</h1>
 				<h2 class="section-heading">8th to 28th April 2018</h2>
                 <hr><p>Australian Course in Advanced Neuroscience</p>
-				<hr><a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+				<hr><a href="#about" class="btn btn-primary btn-xl sr-button js-scroll-trigger">Find Out More</a>
             </div>
+        </div>
         </div>
     </header>
 
     <section class="bg-primary" id="about">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center"><img src="img/logos/ans-logo.png" alt="Australasian Neuroscience Society" style="margin-bottom:5px;"/>
+                <div class="col-lg-8 mx-auto text-center text-white"><img src="img/logos/ans-logo.png" alt="Australasian Neuroscience Society" style="margin-bottom:5px;"/>
                     <h2 class="section-heading">8th to 28th April 2018</h2>
-                    <hr class="light">
+                    <hr class="light my-4">
                     <p><b>The Australian Course in Advanced Neuroscience (ACAN)</b> is an intensive three-week course that teaches the theory and practice of electrophysiological recording and optical imaging techniques. Our Australasian and International faculty will guide each participant in the latest research methods in cellular and systems neuroscience. During the course, each participant will become proficient in patch-clamp recording, calcium imaging, optogenetics, and many other techniques through unbridled access to state-of-the-art equipment. Thanks to the generous support of <i>The Finkel Foundation</i>, ACAN 2018 will feature a dedicated 2-photon imaging / electrophysiology setup, which will complement an array of <i>in vitro</i> and <i>in vivo</i> recording techniques. </p>
                     <p class="text-faded">International faculty for the 2018 course includes:</p>
                       <ul class="text-faded centredlist">
@@ -127,16 +125,12 @@
 					<li class="list-group-item bg-primary">Learn to image the activity of single neurons and networks</li>
 					<li class="list-group-item bg-primary">Learn how to control neurons with optogenetic approaches</li>
 					</ul>
-
-                </div>
-            </div>
-			<div class="row">
-					<div class="text-center">
-						<a href="#program" class="btn btn-circle page-scroll">
+<a href="#program" class="btn btn-circle js-scroll-trigger">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
-					</div>
-				</div>
+                </div>
+            </div>
+			
         </div>
     </section>
 
@@ -150,7 +144,7 @@
             </div>
         </div>
         <div class="container-fluid">
-            <div class="row">
+            <div class="row my-4">
                 <div class="programpanel col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <img alt="Dendritic Recording" src="img/DendriticRecording.png" /> <br />
@@ -181,10 +175,12 @@
                     </div>
                 </div>
             </div>
-			<div class="row"><div class="text-center"> <p>&nbsp;</p><a href="https://drive.google.com/open?id=1NCmQ17cTIM91BDXZLx_r8BVwqwOSTXg1" class="page-scroll btn btn-warning btn-xl sr-button">Download 2018 Program</a></div></div>
+			<div class="row">
+			
+			<div class="text-center mx-auto"> <p><a href="https://drive.google.com/open?id=1NCmQ17cTIM91BDXZLx_r8BVwqwOSTXg1" class="js-scroll-trigger btn btn-warning btn-xl sr-button">Download 2018 Program</a></p></div></div>
         </div>
     </section>
-	<section id="application" class="bg-dark">
+	<section id="application" class="bg-dark text-white">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -255,13 +251,12 @@
 
 				</div></div>
 				</div>
-				<div class="row">
-					<div class="text-center"> <p>&nbsp;</p>
-
-						<a href="#applynow" class="btn btn-circle page-scroll">
+				<div class="row" align="center">
+					<p class="text-center mx-auto">
+						<a href="#applynow" class="btn btn-circle js-scroll-trigger  sr-button">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
-					</div>
+                        </p>
 				</div>
 
 
@@ -272,14 +267,13 @@
 	 <!-- Callout -->
     <aside id="applynow" class="callout">
         <div class="text-vertical-center">
-            <h1>Applications can now be submitted by <br/><strong>1st February 2018</strong>.</h1>
+            <h1>The closing date for applications is <br/><strong>1st February 2018</strong>.</h1>
 			<p>Applications are assessed by the selection committee and applicants will be notified by 15th February 2018.</p>
-			<div class="row">
-				<div class="text-center"> <p>&nbsp;</p>
-				<a class="page-scroll btn btn-success btn-xl sr-button" data-toggle="modal" data-target="#online-application" href="#">Apply Online</a><span style="line-height:5em;">&nbsp;</span>
-				<a class="page-scroll btn btn-warning btn-xl sr-button" href="img/ACAN2018Application.rtf">Download Application Form</a>
-						 <p>&nbsp;</p>
-				</div>
+			<div align="center">
+				<p>
+				<a class="js-scroll-trigger btn btn-success btn-xl sr-button" data-toggle="modal" data-target="#online-application" href="#">Apply Online</a><span style="line-height:5em;">&nbsp;</span>
+				<a class="js-scroll-trigger btn btn-warning btn-xl sr-button" href="img/ACAN2018Application.rtf">Download Application Form</a>
+				</p>
 			</div>
         </div>
 
@@ -321,9 +315,7 @@
 
 				<h3>Please direct enquiries to:</h3>
 
-				<div class="container">
-				<div class="well offset-4" >
-				<p><b>Dr Douglas Ormrod</b><br/>
+				<p class="text-center"><b>Dr Douglas Ormrod</b><br/>
 				Scientific Secretary<br />
 				Neurological Foundation of New Zealand<br/>
 				PO Box 110022<br/>
@@ -332,21 +324,21 @@
 				Fax: [64 9] 377 0614<br/>
 				E-mail: <a href="mailto:douglas.ormrod@neurological.org.nz?subject=ACAN%20Scholarships">douglas.ormrod@neurological.org.nz</a><br/>
 				Web: <a class="external" href="http://www.neurological.org.nz/">http://www.neurological.org.nz</a></p></div>
-				</div></div>
+	
 				</div>
 			</div>
 		</div>
 	</section>
 	<section id="faculty">
 	<div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Faculty</h2>
-                    <hr class="primary">
-                </div>
-            </div>
-        </div>
-    <div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h2 class="section-heading">Faculty</h2>
+				<hr class="primary">
+			</div>
+		</div>
+ 
+
 	<!--First panel full width -->
 	<div class="row">
 		<div class="col-md-12">
@@ -354,15 +346,14 @@
             <div class="panel-heading" style="background:url('img/faculty/ACAN2018speakers.png') no-repeat center center scroll;background-size: 1270px;" >&nbsp;</div>
 
 
-              <p class="well panel panel-title">Leading scientists from around the world generously contribute their time and expertise to ACAN on a voluntary basis to provide high quality instruction in the latest neuroscience techniques.</p>
+              <p class="portfolio-box"><small>Leading scientists from around the world generously contribute their time and expertise to ACAN on a voluntary basis to provide high quality instruction in the latest neuroscience techniques.</small></p>
+              </div></div></div>
   <hr/>
               <div class="row">
-			  <div class="col-md-6 m-b-lg offset-4 text-left">
-			  <blockquote class="col-md-6 col-md-offset-2"><i class="fa fa-quote-left" aria-hidden="true"></i><p>I would definitely recommend ACAN to other neuroscientists. I feel like I levelled up as a scientist over the three weeks of the course. It was intensive and challenging, but one of the most rewarding experiences of my professional life. The quality of the teaching and instruction is incredible, the scientists that visit are world experts in their field, and quite often the discoverers of the theory they are teaching.<i class="fa fa-quote-right" aria-hidden="true"></i></p></blockquote>
-			  </div>
-			  <div class="col-md-6 m-b-lg">
-			  <div class="panel"><span>&nbsp;</span></div>
-			  <div class="panel-body text-center">
+			  
+			  <blockquote class="col-md-4 col-md-offset-4"><i class="fa fa-quote-left" aria-hidden="true"></i><p>I would definitely recommend ACAN to other neuroscientists. I feel like I levelled up as a scientist over the three weeks of the course. It was intensive and challenging, but one of the most rewarding experiences of my professional life. The quality of the teaching and instruction is incredible, the scientists that visit are world experts in their field, and quite often the discoverers of the theory they are teaching.<i class="fa fa-quote-right" aria-hidden="true"></i></p></blockquote>
+	
+			  <div class="panel panel-profile text-center">
           <img class="panel-profile-img" src="img/faculty/Stephen_Williams.jpg">
           <h3 class="panel-title">Professor Stephen Williams</h3>
     <small>Queensland Brain Institute, The University of Queensland, Australia</small>
@@ -372,14 +363,10 @@
 			  <p class="faded-text panel panel-heading">Founded by Australia's Chief Scientist, Dr Alan Finkel, ACAN has been running for over 10 years.  The Australasian Neuroscience Society (ANS) formally took over responsibility for ACAN from the Finkel Foundation in 2009.</p>
 			  <p class="panel text-center"><a href="http://www.ans.org.au/acan/historyadmin" target="_new">ANS: A brief history of ACAN&nbsp;</a><i class="fa fa-external-link" aria-hidden="true"></i></p>
 			  </div>
-        
-		
-	</div>
-
-
+  
 	</div>
 	</section>
-    <section class="no-padding" id="portfolio">
+    <section class="p-0" id="portfolio">
 		<div class="container">
 			<div class="row ">
 				<div class="col-lg-12 text-center">
@@ -390,8 +377,8 @@
 			</div>
 		</div>
 
-        <div class="container-fluid">
-            <div class="row no-gutter popup-video">
+        <div class="container-fluid p-0" >
+            <div class="row no-gutters popup-gallery">
                 <div class="col-lg-6 col-sm-6">
                     <a href="img/promo/ACAN_About_Course.mp4" title="ACAN: About" class="html5lightbox portfolio-box" data-width="640" data-height="360" data-group="promos">
                         <img src="img/promo/ACAN_About_Course.png" class="img-responsive" alt="">
@@ -468,68 +455,82 @@
 			</div>
 		</div>
 	</div>
-    <div class="container-fluid page-scroll text-center">
+    <div class="container-fluid js-scroll-trigger text-center">
 
 		<h3>Scientific equipment and supplies are generously provided by the following suppliers</h3>
 		<p>&nbsp;</p>
 		<div class="row">
-			<div class="offset-4">
-          <div class="col-md-4 col-sm-6 btn-xl"><a href="http://www.moleculardevices.com/systems/axon-conventional-patch-clamp" title="Axon Instruments (Molecular Devices)"><img src="img//logos/Supporters_Axon.png" width="200" height="31" alt="Axon Instruments" /></a></div>
+			<div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="http://www.moleculardevices.com/systems/axon-conventional-patch-clamp" title="Axon Instruments (Molecular Devices)"><img src="img//logos/Supporters_Axon.png" width="200" height="31" alt="Axon Instruments" /></a></div>
+          <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="http://www.coolled.com/" title="CoolLED"><img src="img/logos/Supporters_Coolled.png" width="242" height="82" alt="CoolLED" /></a></div>
+          <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="http://www.newspec.com.au/" title="NewSpec"><img src="img/logos/Supporters_NewSpec.png" alt="NewSpec" /></a>
+          </div>
 
-          <div class="col-md-4 col-sm-6 btn-xl"><a href="http://www.coolled.com/" title="CoolLED"><img src="img/logos/Supporters_Coolled.png" width="242" height="82" alt="CoolLED" /></a></div>
-          <div class="col-md-4 col-sm-6 btn-xl"><a href="http://www.newspec.com.au/" title="NewSpec"><img src="img/logos/Supporters_NewSpec.png" alt="NewSpec" /></a></div>
 
-
-		  </div></div>
-		  <div class="row">
-             <div class="offset-4">
-				<div class="col-md-4 col-sm-6 btn-xl"><a href="http://www.scientifica.uk.com/" title="Scientifica">
-					<img src="img/logos/Supporters_Scientifica_0.png" width="200" height="39" alt="Scientifica" /></a></div>
-
-				<div class="col-md-4 col-sm-6 btn-xl"><a href="http://www.scitech.com.au/" title="SciTech">
-					<img src="img/logos/Supporters_Scitech.png" width="200" height="112" alt="SciTech" /></a></div>
-				<div class="col-md-4 col-sm-6 btn-xl" style="padding-top:20px;"><a href="http://www.sutter.com/" title="Sutter Instrument">
-					<img src="img/logos/Supporters_SutterInstruments.png" width="200" height="16" alt="Sutter Instrument" /></a></div>
-			</div>
 		  </div>
+		<div class="row">
+			<div class="col-lg-4 col-sm-6">
+				<a class="portfolio-box" href="http://www.sutter.com/" title="Sutter Instrument">
+				<img src="img/logos/Supporters_SutterInstruments.png" width="200" height="16" alt="Sutter Instrument" /></a>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<a class="portfolio-box" href="http://www.scitech.com.au/" title="SciTech">
+				<img src="img/logos/Supporters_Scitech.png" width="200" height="112" alt="SciTech" /></a>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<a class="portfolio-box" href="http://www.scientifica.uk.com/" title="Scientifica">
+				<img src="img/logos/Supporters_Scientifica_0.png" width="200" height="39" alt="Scientifica" /></a>
+			</div>
+		</div>	
 
     </div>
 	<p>&nbsp;</p>
-	<div class="row bg-primary">
-		<div class="text-center">
-
-			<a href="#financial" class="btn btn-primary btn-circle page-scroll">
-				<i class="fa fa-angle-double-down animated"></i>
-			</a>
-			<p>&nbsp;</p>
-		</div>
+	<div class="row bg-primary" align="center">
+	<p class="col-lg-8 mx-auto text-center"><a href="#financial" class="btn btn-primary btn-circle js-scroll-trigger sr-button">
+				<i class="fa fa-angle-double-down animated"></i></a></p>
+	
 	</div>
-  	<div id="financial" class="container-fluid page-scroll text-center">
+  	<div id="financial" class="container-fluid js-scroll-trigger text-center">
 		<h3 class="pane-title">Financial Support is generously provided by the following institutes</h3>
           <p>&nbsp;</p>
-			<div class="row">
-			<div class="offset-4">
-				<div class="col-lg-3 col-sm-6 btn-xl"><a href="http://www.anu.edu.au/" title="Australian National University"><img src="img/logos/Supporters_ANU.png" alt="ANU" width="200px" height="70px"/></a></div>
-				<div class="col-lg-3 col-sm-6 btn-xl"><a href="http://www.monash.edu/" title="Monash University"><img src="img/logos/Supporters_Monash.png" alt="Monash University" width="200px" height="70px"/></a></div>
-        <div class="col-lg-3 col-sm-6  btn-xl"><a href="http://qbi.uq.edu.au/" title="Queensland Brain Institute"><img src="img/logos/Supporters_QBI.png" alt="Queensland Brain Institute" width="200px" height="70px"/></a></div>
-				<div class="col-lg-3 col-sm-6 btn-xl"><a href="http://www.neurological.org.nz/" title="Neurological Foundation of NZ"><img src="img/logos/Supporters_NFNZ.png" alt="Neurological Foundation of NZ" width="200px" height="70px"/></a></div>
+		<div class="row">
+			<div class="col-lg-4 col-sm-6">
+				<a class="portfolio-box" href="http://www.anu.edu.au/" title="Australian National University"><img src="img/logos/Supporters_ANU.png" alt="ANU" /></a></div>
+			<div class="col-lg-4 col-sm-6">
+				<a class="portfolio-box" href="http://www.monash.edu/" title="Monash University"><img src="img/logos/Supporters_Monash.png" alt="Monash University" /></a></div>
+			<div class="col-lg-4 col-sm-6">
+				<a class="portfolio-box" href="http://qbi.uq.edu.au/" title="Queensland Brain Institute"><img src="img/logos/Supporters_QBI.png" alt="Queensland Brain Institute" /></a></div>
 
-			</div></div>
-			<div class="row">
-			<div class="offset-4">
-				   <div class="col-lg-3 col-sm-6  btn-xl"><a href="http://www.auckland.ac.nz/" title="The University of Auckland"><img src="img/logos/Supporters_UAuckland.png" alt="The University of Auckland" /></a></div>
-				<div class="col-lg-3 col-sm-6 btn-xl"><a href="http://www.unimelb.edu.au/" title="The University of Melbourne"><img src="img/logos/Supporters_UMelbourne.png" alt="The University of Melbourne" /></a></div>
-				<div class="col-lg-3 col-sm-6 btn-xl"><a href="https://sydney.edu.au/" title="University of Sydney"><img src="img/logos/Supporters_Sydney.png" alt="University of Sydney" /></a></div>
-				<div class="col-lg-3 col-sm-6  btn-xl"><a href="https://www.flinders.edu.au/" title="Flinders University"><img src="img/logos/Supporters_Flinders.png" alt="Flinders University" /></a></div>
-			</div></div>
-			<div class="row">
-			<div class="offset-6">
+		</div>
+		<div class="row">
+			<div class="col-lg-4 col-sm-6">
+				<a class="portfolio-box" href="http://www.auckland.ac.nz/" title="The University of Auckland"><img src="img/logos/Supporters_UAuckland.png" alt="The University of Auckland" /></a></div>
+			<div class="col-lg-4 col-sm-6">
+				<a class="portfolio-box" href="http://www.unimelb.edu.au/" title="The University of Melbourne"><img src="img/logos/Supporters_UMelbourne.png" alt="The University of Melbourne" /></a></div>
+			<div class="col-lg-4 col-sm-6">
+				<a class="portfolio-box" href="https://sydney.edu.au/" title="University of Sydney"><img src="img/logos/Supporters_Sydney.png" alt="University of Sydney" /></a></div>
+		</div>
+		
+		<div class="row">
+			<div class="col-lg-4 col-sm-6">
+				<a class="portfolio-box" href="http://www.otago.ac.nz/" title="University of Otago"><img src="img/logos/Supporters_UOtago.png" alt="University of Otago" /></a></div>
+			<div class="col-lg-4 col-sm-6">
+				<a class="portfolio-box" href="https://www.flinders.edu.au/" title="Flinders University"><img src="img/logos/Supporters_Flinders.png" alt="Flinders University" /></a></div>
+			
+        <div class="col-lg-4 col-sm-6">
+				<a class="portfolio-box" href="http://www.florey.edu.au/" title="The Florey"><img src="img/logos/Supporters_Florey.png" alt="The Florey" /></a></div>
 
-        <div class="col-lg-3 col-sm-6 btn-xl"><a href="http://www.otago.ac.nz/" title="University of Otago"><img src="img/logos/Supporters_UOtago.png" alt="University of Otago" width="200px" height="70px"/></a></div>
-				<div class="col-lg-3 col-sm-6  btn-xl"><a href="http://www.cibf.edu.au/" title="CIBF"><img src="img/logos/Supporters_CIBF.png" alt="CIBF" width="200px" height="120px"/></a></div>
-        <div class="col-lg-3 col-sm-6 btn-xl"><a href="http://www.florey.edu.au/" title="The Florey"><img src="img/logos/Supporters_Florey.png" alt="The Florey" width="200px" max-height="100px"/></a></div>
-
-			</div></div>
+			</div>
+			
+		<div class="row">
+				
+			<div class="col-lg-4 col-sm-6">
+				<a class="portfolio-box" href="http://www.neurological.org.nz/" title="Neurological Foundation of NZ"><img src="img/logos/Supporters_NFNZ.png" alt="Neurological Foundation of NZ" /></a></div>
+			<div class="col-lg-4 col-sm-6">
+				<a class="portfolio-box" href="http://www.cibf.edu.au/" title="CIBF"><img src="img/logos/Supporters_CIBF.png" alt="CIBF" /></a></div>
+		</div>
     </div>
 
   </section>
@@ -571,16 +572,18 @@
     <section id="contact">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
+                <div class="col-lg-8 mx-auto text-center">
                     <h2 class="section-heading">Contact</h2>
-                    <hr class="primary">
-                    <p>For any enquiries or further information regarding ACAN, please contact the ACAN Director by calling or sending an email.</p>
+                    <hr class="my-4">
+                    <p class="mb-5">For any enquiries or further information regarding ACAN, please contact the ACAN Director by calling or sending an email.</p>
                 </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
-                    <i class="fa fa-phone fa-3x sr-contact"></i>
+                </div>
+           <div class="row">
+           		<div class="col-lg-4 ml-auto text-center">
+                    <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
                     <p>(07)3346-6352</p>
                 </div>
-                <div class="col-lg-4 text-center">
+                <div class="col-lg-4 mr-auto text-center">   
                     <i class="fa fa-envelope-o fa-3x sr-contact"></i>
                     <p><a href="mailto:acan-admin@uq.edu.au?subject=ACAN%20website%20enquiry">acan-admin@uq.edu.au</a></p>
                 </div>
@@ -611,7 +614,7 @@
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="vendor/jquery/jquery.easing.min.js"></script>
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
     <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
     <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
